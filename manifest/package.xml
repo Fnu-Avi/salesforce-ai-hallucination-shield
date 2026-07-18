@@ -1,1 +1,20 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Contact.GPA__c</members>
+        <members>Contact.Active_Incomplete_Grades__c</members>
+        <members>Contact.SSN__c</members>
+        <members>Contact.Scholarship_Status__c</members>
+        <members>Contact.AI_Validation_Code__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>UCT_Scholarship_Eligibility_Evaluator</members>
+        <name>PromptTemplateContext</name>
+    </types>
+    <types>
+        <members>UCT_Scholarship_Evaluation_Flow</members>
+        <name>Flow</name>
+    </types>
+    <version>61.0</version>
+</Package>
